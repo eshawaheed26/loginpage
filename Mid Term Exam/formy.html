@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="registration-box">
+        <h2>Registration</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="company">Company:</label>
+            <input type="text" id="company" name="company">
+
+            <p>Registration Type:</p>
+            <ul>
+                <li><input type="radio" id="business" name="registration-type" value="business"><label for="business">Business</label></li>
+                <li><input type="radio" id="educator" name="registration-type" value="educator"><label for="educator">Educator</label></li>
+                <li><input type="radio" id="parent" name="registration-type" value="parent"><label for="parent">Parent</label></li>
+                <li><input type="radio" id="student" name="registration-type" value="student"><label for="student">Student</label></li>
+                <li><input type="radio" id="other" name="registration-type" value="other"><label for="other">Other</label></li>
+            </ul>
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>
