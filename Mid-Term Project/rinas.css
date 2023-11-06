@@ -44,12 +44,17 @@ nav ul li a{
     background-color: rgb(116 135 88);
     color: white; 
     padding: 16px 36px; 
-    border: none; 
+    border: 2px solid rgb(116 135 88); 
     border-radius: 3px;
     margin-left: 70px; 
     font-size: 14px;
     position: relative;
     top: 16px;
+}
+
+.order-button:active{
+    color: rgb(116 135 88);
+    background-color: #fff;
 }
 
 .badge {
@@ -140,12 +145,18 @@ input::placeholder {
 
 .login-button {
     background-color: #748758;
+    border: 1px solid #748758;
     color: #fff;
-    border: none;
     border-radius: 3px;
     padding: 15px 186.5px; 
     font-size: 15px;
     cursor: pointer;
+}
+
+.login-button:active{
+    color: #748758;
+    background-color: #fff;
+
 }
 
 .forgot-password {
@@ -186,7 +197,6 @@ hr {
     cursor: pointer;
     display: inline-block; 
     white-space: nowrap; 
-    margin-bottom: 10px;
 }
 
 .social-buttons button + button {
@@ -197,17 +207,28 @@ hr {
     background-color: #cf463a; 
     border: 1px solid #cf463a;
     color: white; 
-    padding: 12px 90px;
-    padding-top: 6.5px;
-    padding-bottom: 13.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+padding-left: 50px;
+}
+
+.google-button:active{
+    color: #cf463a;
+    background-color: #fff;
+}
+
+.facebook-button:active{
+    color: #3b5998;
+    background-color: #fff;
 }
 
 .google-button img{
     height: 24px;
     width: 24px;
     position: relative;
-    top: 5px;
-    right: 168px;
+    right: 158px;
     border-radius: 2px;
 }
 
@@ -215,17 +236,18 @@ hr {
     background-color: #3b5998; 
     border: 1px solid #3b5998;
     color: white;
-    padding: 12px 92px;
-    padding-top: 6.5px;
-    padding-bottom: 13.5px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    padding-left: 50px;
 }
 
 .facebook-button img{
     height: 22px;
     width: 20px;
     position: relative;
-    top: 4px;
-    right: 170px;
+    right: 162px;
     border-radius: 2px;
 }
 
@@ -247,3 +269,4 @@ footer{
     background-color: #212121;
     padding: 14.5px 40px;
 }
+
