@@ -199,10 +199,6 @@ hr {
     white-space: nowrap; 
 }
 
-.social-buttons button + button {
-    margin-left: 10px; 
-}
-
 .google-button {
     background-color: #cf463a; 
     border: 1px solid #cf463a;
